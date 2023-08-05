@@ -1,0 +1,139 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-text {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #f5f5f5;
+  }
+  
+  .profile-card {
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+  }
+  
+  .profile-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .profile-picture {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .username {
+    font-size: 24px;
+    margin-top: 10px;
+    color: #333333;
+  }
+  
+  .email {
+    font-size: 14px;
+    color: #777777;
+  }
+  
+  .btn-logout {
+    background-color: #807ffe;
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1rem;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+  
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .welcome-slogan {
+    font-size: 20px;
+    color: #333333;
+  }
+
+  .dark-theme .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #000;
+    color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dark-theme .welcome-slogan {
+    font-size: 20px;
+    color: #fff;
+  }
+
+  .dark-theme .profile-container {
+    background-color: #222222;
+  }
+  
+  .dark-theme .profile-card {
+    background-color: #333333;
+  }
+  
+  .dark-theme .username,
+  .dark-theme .email {
+    color: #ffffff;
+  }
+
+  .footer {
+    position: sticky;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+    height: 50px;
+  }
+
+  .dark-theme .footer {
+    background-color: #000;
+    color: #fff;
+  }
